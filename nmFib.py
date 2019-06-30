@@ -15,7 +15,7 @@ class nmFib(object):
 
    def nmFib(self):
       if self.stop  == self.steps:
-        print(f"Ratio {self.m}: {self.ratio}")
+        print(f"F({self.n}) ~ {self.ratio}")
         return self.ratio
       else:
         offset = -self.n + 1
@@ -42,7 +42,6 @@ class nmFib(object):
 
 if __name__ == "__main__":
   sys.setrecursionlimit(10000)
-#   previousratio=0.
   for n in range(0,100):
     for m in range(9999,10000):
       mypad = nmFib(n,m,8000)
