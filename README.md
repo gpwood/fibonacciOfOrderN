@@ -83,7 +83,7 @@ Easy way to compute limits
     F(3) = 1.3802775690976141 = F(2,4)
     F(4) = rho = F(3,5)
 
-    conject:
+conject the limit of the series F(n) is given by an element in the previous series:
 
     F(n) = F(n-1,n+1)
 
